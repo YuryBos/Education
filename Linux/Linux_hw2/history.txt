@@ -1,0 +1,14 @@
+First level: Создать текстовый файл /home/user/start/1.txt , создав перед этим необходимую директорию. 
+Добавьте слово Start в текстовый документ, созданный ранее.
+Дописать в конец документа текущую дату, использовав date (запуск командой date).
+Скопировать получившийся документ в /opt/task/start.txt (Предварительно создаем необходимую директорию)
+В документ /opt/task/start.txt дописать последние 4 строчки из списка ВСЕХ файлов, лежащих в /
+
+   0 mkdir -p /home/user/start
+   1 > /home/user/start/1.txt
+   2 echo "Start" >> /home/user/start/1.txt
+   3 date >> /home/user/start/1.txt
+   4 mkdir -p /opt/task
+   5 cp /home/user/start/1.txt /opt/task/start.txt
+   6 ls -a|tail -4 >> /opt/task/start.txt
+   7 history > /tmp/history.txt

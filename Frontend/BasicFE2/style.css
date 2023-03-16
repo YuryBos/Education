@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background-color:#1ABC9C;
+}
+section.about {
+    height: 695px;
+}
+section.projects {
+    background-color: #DCFFEB;
+    width: 100%;
+}
+.projects-wrapper, .footer_wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 124px 0;
+}
+.footer_wrapper {
+    padding: 84px 0 76px;
+}
+#projects-block {
+    display: flex;
+    justify-content: space-between;
+}
+.project {
+    width: calc(33% - 19px);
+    height: 376px;
+    background: no-repeat center;
+    background-size: cover;
+}
+.ein, .zwei, .drei {
+    background-image: url(https://hotelmargarita.ru/i/attractions-gazprom-arena.jpg);
+}
+h2{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 50px;
+    padding: 6px 0 12px 0;
+}
+h3 {
+    font-family: 'Inter';
+    font-weight: 500;
+    padding: 5px 0;
+}
+.project-text {
+    padding: 210px 36px 0;
+    width: auto;
+    height: 376px;
+    font-family: 'Open Sans';
+    font-size: 0%;
+}
+.project-text:hover {
+    font-size: 100%;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    background-color: rgba(0, 0, 0, .25);
+}
+.project-text:hover h3 {
+    font-size: 24px;
+}
+footer {
+    height: 300px;
+}
+address {
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+address i {
+    font-size: 48px;
+    line-height: 40px;
+    color: #F7654A;
+    padding-bottom: 36px;
+}
+address a {
+    color: #F7654A;
+}
+address h3, a {
+    font-family: 'Oswald';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.contact-title {
+    color: #999999;
+    padding-bottom: 25px;
+}

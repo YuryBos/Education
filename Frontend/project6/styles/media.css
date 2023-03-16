@@ -1,0 +1,8 @@
+/*
+Адаптивный сайт
+*/
+@media (max-width: 480px) {
+    .item {
+        width: calc(100% - 20px);
+    }
+}

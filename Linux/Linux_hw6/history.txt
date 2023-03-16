@@ -1,0 +1,5 @@
+   0 > fullscript.sh
+   1 nano fullscript.sh
+   2 chmod 744 fullscript.sh
+   3 ls
+   4 history > /tmp/history.txt

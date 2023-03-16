@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>Tour Booking Form</h1>
+        </div>
+        <section >
+            <form action="">
+                <div class="name commondiv" >
+                    <label>Name
+                        <input type="text" placeholder="Firstname">
+                        <input type="text" placeholder="Lastname">
+                    </label>
+                </div>
+                <div class="Email commondiv">
+                    <p class="email-desc">Email</p><!--Доработать lable-->
+                    <input type="Email" placeholder="name@mail.ru">
+                </div>
+                <div class="phone commondiv">
+                    <p class="phone-desc">Phone</p><!--Доработать lable-->
+                    <input type="tel">
+                </div>
+                <div class="date commondiv">
+                    <p class="date-desc">When are you planning to visit</p><!--Доработать lable-->
+                    <input type="date">
+                </div>
+                <div class="quantity commondiv">
+                    <p>How many people are in your group?</p><!--Доработать lable-->
+                    <input type="number">
+                </div>
+                <div class="tour commondiv">
+                    <p>Which tour are most interested in?</p><!--Доработать lable-->
+                    <select name="" id="">
+                        <option>Tour1</option>
+                        <option>Tour2</option>
+                    </select>
+                </div>
+                <div class="contact commondiv">
+                    <p>What is the best way to contact you?</p>
+                    <div>
+                        <label for="phone">
+                            <input type="checkbox" id="phone">Phone
+                        </label>
+
+                        <label for="email">
+                            <input type="checkbox" id="email">Email
+                        </label>
+
+                        <label for="either">
+                            <input type="checkbox" id="either">Either
+                        </label>
+
+                    </div>
+                </div>
+                <div class="callback commondiv">
+                    <p>If phone, when is the best time of day for a call-back?</p>
+                    <div>
+                        <label for="radio8">
+                            <input type="radio" id="radio8" name="radio">8 - 11 AM
+                        </label>
+
+                        <label for="radio12">
+                            <input type="radio" id="radio12" name="radio">12 - 4 PM
+                        </label>
+
+                        <label for="radio6">
+                            <input type="radio" id="radio6" name="radio">6 - 10 PM
+                        </label>
+                    </div>
+                </div>
+                <div class="answer commondiv">
+                    <p>Anything else we should know?</p>
+                    <textarea cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">SEND</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

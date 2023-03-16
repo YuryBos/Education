@@ -1,0 +1,40 @@
+// 1.
+const number1 = +prompt("Введите первое число")
+const number2 = +prompt("Введите второе число")
+if(number1 > number2) {
+        console.log("Число", number1, "больше")
+    } else if(number2 > number1) {
+        console.log("Число", number2, "больше")
+    } else if(number2 === number1) {
+        console.log("Оба числа равны", number1)
+    } else {
+        console.log("Ошибка ввода данных")
+    }
+// 2.
+const number = +prompt("Введите число")
+if(number > 0) {
+        console.log("Число", number, "- положительное")
+    } else if(number < 0) {
+        console.log("Число", number, "- отрицательное")
+    } else if(number === 0) {
+        console.log("Число равно 0")
+    } else {
+        console.log("Ошибка ввода данных")
+    }
+// 3.
+const arr = [1, 4, 2, 6, 9]
+const squares = []
+squares.push(Math.pow(arr[0], 2))
+squares.push(Math.pow(arr[1], 2))
+squares.push(Math.pow(arr[2], 2))
+squares.push(Math.pow(arr[3], 2))
+squares.push(Math.pow(arr[4], 2))
+console.log(squares)
+// 4.
+const movies = ["Властелин колец", "Аватар", "Звездные войны", "Гарри Поттер"]
+const temp = movies[1]
+movies.shift()
+movies.shift()
+movies.shift()
+movies.unshift(temp)
+console.log(movies)

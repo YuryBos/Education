@@ -1,0 +1,11 @@
+mkdir /opt/45_46_morning/yuriy/hwscript
+echo -e "#\!/bin/bash\nDATE=\"\$(date +\"%d%m%y\")\"\n\nfor temp in {1..10}\ndo\ndate >> /opt/45_46_morning/yuriy/hwscript/\$temp.\$DATE.txt\ndone" > /opt/45_46_morning/yuriy/hw7_script.sh
+nano /opt/45_46_morning/yuriy/hw7_script.sh
+chmod +x /opt/45_46_morning/yuriy/hw7_script.sh
+crontab -e
+
+crontab:
+
+15 * * * * /opt/45_46_morning/yuriy/hw7_script.sh
+
+REM // Восклицательный знак пришлось экранировать, а потом в нано убирать экран)). Думаю из-за настроек системы записать его из командной строки в файл не получается.

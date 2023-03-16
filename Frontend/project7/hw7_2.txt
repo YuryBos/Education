@@ -1,0 +1,55 @@
+// 1.
+const numbers = [-100, 0, 43, -20, 150, 70, 15, 1.5]
+let sum = 0
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 === 1) {
+        sum = sum + numbers[i]
+    }
+}
+console.log(sum)
+// 2.
+let summ = 0
+for(let i = 0; i < numbers.length; i++) {
+    if(numbers[i] % 2 === 1) {
+        sum1 = summ + numbers[i]
+    }
+    else if (numbers[i] % 2 === 0) {
+        sum2 = summ + numbers[i]
+    }
+}
+if (sum1 > sum2) {
+    console.log(sum1 - sum2)
+} else {
+    console.log(sum2 - sum1)
+}
+// 1.
+const object = {
+        name : "Имя объекта",
+        price : 1000000,
+        color : "red"
+    }
+console.log(object)
+// 2.
+const user = {
+        email: "mymail@gmail.com",
+        password: "123456789",
+        login : "Admin",
+        age : "122"
+    }
+console.log(new Date().getFullYear() - user.age)
+// 3.
+const prices = [
+    {
+        name: "Iphone 14",
+        price : 100000
+    },
+    {
+        name: "Iphone 13",
+        price : 80000
+    },
+    {
+        name : "Iphone 12",
+        price: 70000
+    }
+]
+console.log(prices[0].price + prices[1].price + prices[2].price)
