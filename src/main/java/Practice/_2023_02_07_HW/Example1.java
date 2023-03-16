@@ -1,4 +1,4 @@
-package _2023_02_07_TaskHW;
+package Practice._2023_02_07_HW;
 
 import java.util.Arrays;
 

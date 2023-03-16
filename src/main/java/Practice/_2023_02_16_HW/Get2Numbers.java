@@ -1,7 +1,7 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
 import java.util.Arrays;
-public class _3_Get2Numbers {
+public class Get2Numbers {
     public static void main(String[] args) {
         int[] arr1 = {1, 5, 4, 8, 9, 3, 2, 6};
         int num = 13;

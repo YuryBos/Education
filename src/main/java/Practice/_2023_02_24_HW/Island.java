@@ -1,4 +1,4 @@
-package _2023_02_24_TaskHW;
+package Practice._2023_02_24_HW;
 
 /**
  * Island.java

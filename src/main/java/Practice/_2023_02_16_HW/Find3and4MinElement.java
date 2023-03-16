@@ -1,5 +1,5 @@
-package All_Tasks_up_to_24;
-public class _2_3and4MinElement {
+package Practice._2023_02_16_HW;
+public class Find3and4MinElement {
     public static void main(String[] args) {
         minElement(new int[]{222, 31, 144, 3, 5, 88, 99, 4, 10});
     }

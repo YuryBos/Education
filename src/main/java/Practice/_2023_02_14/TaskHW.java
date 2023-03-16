@@ -1,4 +1,4 @@
-package _2023_02_14_Task;
+package Practice._2023_02_14;
 
 import java.util.Scanner;
 

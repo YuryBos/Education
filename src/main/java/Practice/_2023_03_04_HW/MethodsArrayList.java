@@ -1,4 +1,4 @@
-package All_Tasks_up_to_24;
+package Practice._2023_03_04_HW;
 
 import java.util.ArrayList;
 import java.util.Iterator;

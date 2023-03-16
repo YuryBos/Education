@@ -1,3 +1,5 @@
+package Basic.Project;
+
 public class WhileDoWhileExamples {
     public static void main(String[] arg) {
 //        getExample1();

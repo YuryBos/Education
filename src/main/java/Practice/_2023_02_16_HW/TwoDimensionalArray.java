@@ -1,6 +1,6 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
-public class _10_TwoDimensionalArray {
+public class TwoDimensionalArray {
     public static void main(String[] args) {
 
         printArray(7, 5);

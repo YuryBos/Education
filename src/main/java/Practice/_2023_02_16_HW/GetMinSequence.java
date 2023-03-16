@@ -1,6 +1,6 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
-public class _5_GetMinSequence {
+public class GetMinSequence {
     public static void main(String[] args) {
         int[] nums = {1, 1, 5, 4, 1, 9, 2, 4, 6};
         int n = 11;

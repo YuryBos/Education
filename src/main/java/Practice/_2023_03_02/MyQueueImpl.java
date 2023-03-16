@@ -1,4 +1,4 @@
-package _2023_03_02;
+package Practice._2023_03_02;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package Extended;
+package Basic.Project.Extended;
 
 public class Person {
 

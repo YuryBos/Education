@@ -1,3 +1,5 @@
+package Basic.Project;
+
 public class Person {
 
     private String name;

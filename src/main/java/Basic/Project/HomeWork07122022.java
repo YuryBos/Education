@@ -1,3 +1,5 @@
+package Basic.Project;
+
 public class HomeWork07122022 {
 
     public static void main(String[] args) {

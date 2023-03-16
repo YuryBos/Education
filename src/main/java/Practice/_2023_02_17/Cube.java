@@ -1,4 +1,4 @@
-package _2023_02_17_prakt;
+package Practice._2023_02_17;
 
 public final class Cube  extends DrawObjekt {
 

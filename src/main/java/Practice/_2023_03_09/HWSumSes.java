@@ -1,4 +1,4 @@
-package _2023_03_09;
+package Practice._2023_03_09;
 
 public class HWSumSes {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Basic.Project;
+
 import java.util.Arrays;
 
 public class StringExample {

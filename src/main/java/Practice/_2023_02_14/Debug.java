@@ -1,4 +1,4 @@
-package _2023_02_14_Task;
+package Practice._2023_02_14;
 
 public class Debug {
     public static void main(String[] args) {

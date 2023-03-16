@@ -1,3 +1,5 @@
+package Basic.Project;
+
 public class SimpleMathOperations {
 
     public double sum(double a, double b) {

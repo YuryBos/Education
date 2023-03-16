@@ -1,8 +1,8 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
 import java.util.Scanner;
 
-public class _6_GetNewString {
+public class GetNewString {
     public static void main(String[] args) {
         System.out.println(getNewString());
     }

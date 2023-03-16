@@ -1,6 +1,6 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
-public class _8_FindMissingNumber {
+public class FindMissingNumber {
     public static void main(String[] args) {
         findMissingNumber(new int[]{1, 0, 2, 8, 6, 5, 4, 7});
         System.out.println(findMissingNumber2(new int[]{8, 6, 5, 4, 9})); // когда числа в массиве не начинаются с 0

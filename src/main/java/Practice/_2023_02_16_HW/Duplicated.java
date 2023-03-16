@@ -1,8 +1,8 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
 import java.util.Arrays;
 
-public class _4_Duplicated {
+public class Duplicated {
     public static void main(String[] args) {
         int[] arr = {1, 2, 10, 3, 4, 5, 6, 7, 8, 9, 10};
         int[] arr2 = {1, 10, 5, 4, 11, 9, 2, 14, 6, 21, 54, 44, 8, 19, 3, 12, 16};

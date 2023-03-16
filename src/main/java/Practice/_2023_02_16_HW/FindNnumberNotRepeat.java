@@ -1,6 +1,6 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
-public class _7_FindNnumberNotRepeat {
+public class FindNnumberNotRepeat {
     public static void main(String[] args) {
         System.out.println(findNonRepeatedNumber(new int[]{1, 2, 3, 4, 5, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}));
    }

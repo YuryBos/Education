@@ -1,4 +1,4 @@
-package _2023_02_09_Task;
+package Practice._2023_02_09;
 
 public class Test  {
 

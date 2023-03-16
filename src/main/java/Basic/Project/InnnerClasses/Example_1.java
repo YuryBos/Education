@@ -1,4 +1,4 @@
-package InnnerClasses;
+package Basic.Project.InnnerClasses;
 
 /*
     Локальный внутрений метод класса

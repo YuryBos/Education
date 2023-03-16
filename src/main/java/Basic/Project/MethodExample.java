@@ -1,3 +1,5 @@
+package Basic.Project;
+
 public class MethodExample {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package _2023_02_16_Task;
+package Practice._2023_02_16;
 
 import java.util.HashMap;
 import java.util.Map;

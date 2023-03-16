@@ -1,6 +1,6 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
-public class _9_FindNumberOfOwnDivisors {
+public class FindNumberOfOwnDivisors {
     public static void main(String[] args) {
         int[] array = {1, 128, 127, 256, 87, 512, 1024, 2048, 4096,
                 8192, 44, 48, 55, 66, 77, 88, 99, 111, 112, 115, 122, 16384, 128, 32768, 65536, 131072, 262144,};

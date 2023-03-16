@@ -1,8 +1,8 @@
-package All_Tasks_up_to_24;
+package Practice._2023_02_16_HW;
 
 import java.util.Arrays;
 
-public class _1_Fibonacci {
+public class Fibonacci {
     public static void main(String[] args) {
         System.out.println("Fibonacci numbers: ");
         arrayFibonacci(15); // число элементов в массиве
