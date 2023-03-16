@@ -37,4 +37,3 @@ for(let i = 0; i < numbers.length; i++) {
 numbers.forEach(function(number) {
     console.log(number * 10)
 })
-function
