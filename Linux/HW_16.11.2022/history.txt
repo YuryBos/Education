@@ -1,4 +1,4 @@
-// работал локально из папки \home (в ней поддиректории animals/  humans/  opt/  tmp/ )
+// worked locally from the \home folder (subdirectories animals/ humans/ opt/ tmp/ in it)
     1  mkdir animals
     2  mkdir animals/dogs animals/cats animals/fish
     3  > animals/dogs/pluto.txt animals/fish/nemo.txt animals/cats/garfield.txt
