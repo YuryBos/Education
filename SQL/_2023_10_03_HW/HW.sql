@@ -4,7 +4,7 @@
 SELECT * FROM Products WHERE CategoryID IN (2, 5) AND Price BETWEEN 5 AND 25 AND ProductName LIKE '%syrup%'
 
 (2) добавьте произвольный товар в таблицу Products
-
+INSERT INTO Products (ProductName, SupplierID, CategoryID, Unit, Price) VALUES ("Router", 1, 1, "1 pcs.", 150);
 
 (3) у клиента с ID 1 измените адрес на произвольный
 
