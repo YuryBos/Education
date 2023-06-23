@@ -1,4 +1,4 @@
--- 1) Вывести название продукта, который чаще всего встречается в заказах:
+-- 1) Р’С‹РІРµСЃС‚Рё РЅР°Р·РІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р°, РєРѕС‚РѕСЂС‹Р№ С‡Р°С‰Рµ РІСЃРµРіРѕ РІСЃС‚СЂРµС‡Р°РµС‚СЃСЏ РІ Р·Р°РєР°Р·Р°С…:
 
 SELECT products.title
 FROM products
@@ -7,7 +7,7 @@ GROUP BY products.id
 ORDER BY COUNT(*) DESC
 LIMIT 1;
 
--- 2) Вывести название продукта, который покупают чаще всего (на основе общего количества купленных единиц):
+-- 2) Р’С‹РІРµСЃС‚Рё РЅР°Р·РІР°РЅРёРµ РїСЂРѕРґСѓРєС‚Р°, РєРѕС‚РѕСЂС‹Р№ РїРѕРєСѓРїР°СЋС‚ С‡Р°С‰Рµ РІСЃРµРіРѕ (РЅР° РѕСЃРЅРѕРІРµ РѕР±С‰РµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° РєСѓРїР»РµРЅРЅС‹С… РµРґРёРЅРёС†):
 
 SELECT products.title
 FROM products
@@ -16,16 +16,16 @@ GROUP BY products.id
 ORDER BY SUM(orders.productcount) DESC
 LIMIT 1;
 
--- 3) Вывести общую выручку магазина (сумма всех купленных единиц товара):
+-- 3) Р’С‹РІРµСЃС‚Рё РѕР±С‰СѓСЋ РІС‹СЂСѓС‡РєСѓ РјР°РіР°Р·РёРЅР° (СЃСѓРјРјР° РІСЃРµС… РєСѓРїР»РµРЅРЅС‹С… РµРґРёРЅРёС† С‚РѕРІР°СЂР°):
 
-SELECT SUM(products.price * orders.productcount) AS общая_выручка
+SELECT SUM(products.price * orders.productcount) AS РѕР±С‰Р°СЏ_РІС‹СЂСѓС‡РєР°
 FROM products
 JOIN orders ON products.id = orders.productid;
 
 
--- 4) Определить сумму выручки за онлайн-продажи (online) и за продажи в магазине (direct):
+-- 4) РћРїСЂРµРґРµР»РёС‚СЊ СЃСѓРјРјСѓ РІС‹СЂСѓС‡РєРё Р·Р° РѕРЅР»Р°Р№РЅ-РїСЂРѕРґР°Р¶Рё (online) Рё Р·Р° РїСЂРѕРґР°Р¶Рё РІ РјР°РіР°Р·РёРЅРµ (direct):
 
-SELECT orders.ordertype, SUM(products.price * orders.productcount) AS выручка
+SELECT orders.ordertype, SUM(products.price * orders.productcount) AS РІС‹СЂСѓС‡РєР°
 FROM products
 JOIN orders ON products.id = orders.productid
 GROUP BY orders.ordertype;
